@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #f3f5fc;
+}
+
+.texto{
+    width: 60%px;
+    height: 60%;
+    top: 15%;
+    left: 12%;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    background-color: #f3f5fc;
+    text-align: left;
+    border: none;
+    position: absolute;
+}
+/*Desaparece borde del textarea*/
+.texto:focus,texto:active{
+    border: none;
+    outline: none;
+}
+
+.recomendacion{
+    width: 80%;
+    height: 18%;
+    top: 851px;
+    left: 12%;
+    gap: 8px;
+    opacity: 0px;
+    position: absolute;
+    top: 80%;
+}
+
+.recomendacion p{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    opacity: 80%;
+    color: #495057;
+}
+
+.botones{
+    width: 680px;
+    height: 67px;
+    top: 84%;
+    left: 12%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5%, 1;
+    gap:24px; 
+}
+
+
+
+
+.text-Encriptado{
+    position: absolute;
+    justify-content: center;
+    width: 27%;
+    height: 90%;
+    top: 5%;
+    left: 70%;
+    background-color: white;
+    border-radius: 35px;
+
+}
