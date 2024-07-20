@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+.logo{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 105px;
+    height: 48px;
+}
 .container{
     position: relative;
     width: 100vw;
