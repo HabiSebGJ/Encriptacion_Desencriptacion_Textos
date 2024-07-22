@@ -125,6 +125,14 @@
 
 }
 
+.text-Encriptado img{
+    width: 80%;
+    height: 50%;
+    top: 15%;
+    left: 9%;
+    position: absolute;
+}
+
 .mensaje-encrip{
     width: 100%;
     height: 122px;
@@ -136,4 +144,5 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    opacity: 100%;
 }
