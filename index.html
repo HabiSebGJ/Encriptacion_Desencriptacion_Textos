@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptar y Desencriptar</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     <div class="container">
@@ -18,10 +19,11 @@
         <div class="botones">
             <button class="encriptar" type="button" onclick="Encrip()">Encriptar</button>
             <button class="desencriptar" type="button" onclick="Desencrip()">Desencriptar</button>
+            <button class="copiartext" type="button" onclick="CopiarText()">Copiar</button>
         </div>
 
         <div class="text-Encriptado">
-            <img src="img/Muñeco.png" alt="muñeco">
+            <img src="img/Muñeco.png" id="muñeco">
             <div class="mensaje-encrip">
                 <h1 id="mensaje1">Ningún mensaje fué encontrado</h1>
                 <p id="mensaje2">Ingresa el texto que desees encriptar o desencriptar.</p>
