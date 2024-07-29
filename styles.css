@@ -99,6 +99,21 @@
     font-family: "Inter";
 }
 
+.copiartext{
+    width: 25%;
+    line-height: 19px;
+    padding: 2%;
+    gap: 8px;
+    border-radius: 24px;
+    background-color:#D8DFE8;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #0A3871;
+    font-family: "Inter";
+}
+
 .encriptar:hover{
     margin: 0.2%;
     width: 24.5%;
@@ -122,7 +137,6 @@
     left: 70%;
     background-color: white;
     border-radius: 35px;
-
 }
 
 .text-Encriptado img{
